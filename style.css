@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*Header element*/
+
+header {
+    height: 400px;
+    background-image: url(https://via.placeholder.com/2400x1600);
+}
+
+.logo {
+   border: 1px solid black;
+}
+
+nav {
+    width: 350px;
+    border: 1px solid black;
+}
+
+li {
+    list-style: none;
+    display: inline-block;
+    font-size: 25px;
+    padding: 10px;
+}
+
+.nav-items {
+    text-decoration: none;
+}
+
+.heading {
+    width: 50%;
+    height: 60%;
+    border: 1px solid black;
+    margin: 0 auto;
+}
+
+.head {
+    font-size: 60px;
+    text-align: center;
+    padding-top: 80px;
+}
