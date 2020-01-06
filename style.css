@@ -4,10 +4,6 @@
     box-sizing: border-box;
 }
 
-/*body {*/
-/*    font-family: ;*/
-/*}*/
-
 
 /*Header element*/
 
@@ -26,7 +22,7 @@ header {
 }
 
 nav {
-    width: 350px;
+    width: 285px;
     height: 100%;
     float: right;
     border: 1px solid black;
@@ -38,7 +34,6 @@ li {
     font-size: 20px;
     padding-top: 15px;
     padding-left: 20px;
-    /*color: ;*/
 }
 
 .nav-items {
@@ -50,7 +45,8 @@ li {
 
 .top-element {
     height: 400px;
-    background-image: url("https://via.placeholder.com/1600x400");
+    background-image: url("images/aroma-beverage-breakfast-brown-347144.jpg");
+    ;
 }
 
 .heading {
@@ -70,3 +66,58 @@ li {
 
 
 /*Container element*/
+
+.bean-type {
+    width: 950px;
+    height: 250px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.right-dics {
+    width: 600px;
+    float: right;
+    font-size: 20px;
+    padding: 0 35px 35px 35px;
+}
+
+.left-img {
+    float: left;
+    padding: 20px 0 0 20px;
+}
+
+.bean-name {
+    padding: 15px 0;
+}
+
+.left-dics {
+    width: 600px;
+    float: left;
+    font-size: 20px;
+    padding: 0 35px 35px 35px;
+}
+
+.right-img {
+    float: right;
+    padding: 20px 20px 0px 0px;
+}
+
+.bean-name {
+    padding: 15px 0px;
+}
+
+/*Grid element*/
+
+.container {
+    display: grid;
+    width: 1400px;
+    margin: 40px auto 0;
+    justify-content: center;
+    grid-gap: 30px;
+}
+
+/*Footer element*/
+
+footer {
+    margin: 40px;
+    text-align: center;
+}
