@@ -10,58 +10,69 @@
 header {
     width: 100%;
     height: 60px;
-    border: 1px solid black;
     position: fixed;
     z-index: 1;
-    background-color: cornflowerblue;
+    background-color: #ead9d5;
+    box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.2);
 }
 
 .logo {
-    border: 1px solid black;
     margin-left: 100px;
 }
 
 nav {
-    width: 285px;
+    width: 400px;
     height: 100%;
     float: right;
-    border: 1px solid black;
 }
 
 li {
     list-style: none;
     display: inline-block;
-    font-size: 20px;
     padding-top: 15px;
     padding-left: 20px;
 }
 
 .nav-items {
     text-decoration: none;
+    color: #af9691;
+    font-size: 25px;
+    padding: 10px;
+    border: 1px solid #ead9d5;
 }
 
+.nav-items:hover {
+    color: white;
+    background-color: rgba(0, 0, 0, 0.02);
+    padding: 10px;
+    border: 1px solid white;
+    border-radius: 10%;
+}
 
 /*Heading element*/
 
 .top-element {
-    height: 400px;
-    background-image: url("images/aroma-beverage-breakfast-brown-347144.jpg");
-    ;
+    height: 450px;
+    background-image: url("images/1600-1062.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .heading {
-    width: 500px;
-    height: 200px;
-    border: 1px solid black;
-    background-color: indianred;
+    width: 700px;
+    height: 300px;
     position: absolute;
-    left: 250px;
+    left: 150px;
     top: 100px;
 }
 
 .head {
     padding-left: 60px;
     padding-top: 80px;
+    color: white;
+    font-size: 70px;
+    font-family: 'Comfortaa', cursive;
+
 }
 
 
@@ -71,6 +82,21 @@ li {
     width: 950px;
     height: 250px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.left-type {
+    position: relative;
+    right: 15px;
+}
+
+.right-type {
+    position: relative;
+    left: 15px;
+}
+
+.left-type:hover {
+    /*position: relative;*/
+    /*right: 50px;*/
 }
 
 .right-dics {
