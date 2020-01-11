@@ -4,9 +4,13 @@
     box-sizing: border-box;
 }
 
+.middle {
+    max-width: 1000px;
+    margin: 0 auto;
+    height: 100%;
+}
 
 /*Header element*/
-
 header {
     width: 100%;
     height: 60px;
@@ -17,11 +21,15 @@ header {
 }
 
 .logo {
-    margin-left: 100px;
+    float: left;
+    font-family: 'Lobster', cursive;
+    font-size: 35px;
+    color: #452019;
+    padding-top: 5px;
 }
 
 nav {
-    width: 400px;
+    width: 420px;
     height: 100%;
     float: right;
 }
@@ -29,28 +37,27 @@ nav {
 li {
     list-style: none;
     display: inline-block;
-    padding-top: 15px;
-    padding-left: 20px;
 }
 
 .nav-items {
+    display: block;
+    width: 130px;
+    font-family: 'Comfortaa', cursive;
+    text-align: center;
     text-decoration: none;
-    color: #af9691;
-    font-size: 25px;
-    padding: 10px;
-    border: 1px solid #ead9d5;
+    color: #7c6c68;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 19px 5px;
 }
 
 .nav-items:hover {
-    color: white;
-    background-color: rgba(0, 0, 0, 0.02);
-    padding: 10px;
-    border: 1px solid white;
+    color: black;
+    background-color: hsla(11, 31%, 77%, 0.6);
     border-radius: 10%;
 }
 
 /*Heading element*/
-
 .top-element {
     height: 450px;
     background-image: url("images/1600-1062.jpg");
@@ -59,28 +66,24 @@ li {
 }
 
 .heading {
-    width: 700px;
+    width: 1000px;
+    margin: 0 auto;
     height: 300px;
-    position: absolute;
-    left: 150px;
-    top: 100px;
 }
 
 .head {
-    padding-left: 60px;
-    padding-top: 80px;
+    padding-top: 160px;
     color: white;
     font-size: 70px;
     font-family: 'Comfortaa', cursive;
 
 }
 
-
 /*Container element*/
-
 .bean-type {
     width: 950px;
     height: 250px;
+    margin: 40px auto 0;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
@@ -92,11 +95,6 @@ li {
 .right-type {
     position: relative;
     left: 15px;
-}
-
-.left-type:hover {
-    /*position: relative;*/
-    /*right: 50px;*/
 }
 
 .right-dics {
@@ -129,16 +127,6 @@ li {
 
 .bean-name {
     padding: 15px 0px;
-}
-
-/*Grid element*/
-
-.container {
-    display: grid;
-    width: 1400px;
-    margin: 40px auto 0;
-    justify-content: center;
-    grid-gap: 30px;
 }
 
 /*Footer element*/
