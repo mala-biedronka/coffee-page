@@ -7,7 +7,7 @@
 /*Header Section*/
 header {
     width: 100%;
-    height: 60px;
+    height: 70px;
     position: fixed;
     z-index: 1;
     background-color: #ead9d5;
@@ -28,24 +28,28 @@ header {
     font-size: 2rem;
     color: #452019;
 }
-.nav-item {
+.navigate-item {
     width: 130px;
     padding: 19px 15px;
     display: inline-block;
     text-align: center;
     list-style: none;
 }
-.nav-link {
+.navigate-link {
     font-family: 'Comfortaa', cursive;
-    font-size: 20px;
+    font-size: 1.2rem;
     font-weight: 600;
     text-decoration: none;
     color: #7c6c68;
 }
-.nav-item:hover {
+.navigate-item:hover {
     color: black;
     background-color: hsla(11, 31%, 77%, 0.6);
     border-radius: 10%;
+}
+.navigate-link:hover {
+    color: #7c6c68;
+    text-decoration: none;
 }
 
 /*Top Section*/
@@ -60,13 +64,19 @@ header {
     margin: 0 auto;
     padding-top: 360px;
 }
-.title {
+h1.title {
     font-family: 'Comfortaa', cursive;
     font-size: 70px;
     color: white;
 }
 
 /*Main Section*/
+h2.featurette-heading {
+    margin-top: 3%;
+}
+.featurette {
+    padding: 2% 5%;
+}
 .bean-type {
     width: 950px;
     height: 250px;
