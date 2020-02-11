@@ -53,26 +53,25 @@ header {
     background-repeat: no-repeat;
 }
 .top-wrapper {
-    max-width: 1200px;
+    padding-top: 250px;
+}
+.top-heading {
+    max-width: 650px;
     margin: 0 auto;
-    padding: 300px 0 0 50px;
+    padding: 50px 20px;
+    text-align: center;
+    background-color: rgba(234, 217, 213, 0.5);
+    border-radius: 1%;
 }
 .title {
     font-family: 'Comfortaa', cursive;
     font-size: 4.2rem;
     font-weight: bold;
-    color: white;
+    color: #57362f;
 }
 @media (max-width: 991px){
     .top-wrapper {
-        padding: 250px 0 0 0;
-    }
-    .top-heading {
-        max-width: 800px;
-        margin: 0 auto;
-        padding: 100px 30px;
-        text-align: center;
-        background-color: rgba(234, 217, 213, 0.5);
+        padding-top: 300px;
     }
     .title {
         font-size: 3.5rem;
@@ -121,7 +120,7 @@ header {
 /*Footer Section*/
 footer {
     margin-top: 80px;
-    padding: 50px 0;
+    padding: 40px 0 20px;
     text-align: center;
     background-color: #ead9d5;
     color: #7c6c68;
