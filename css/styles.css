@@ -69,14 +69,6 @@ header {
     font-weight: bold;
     color: #57362f;
 }
-@media (max-width: 991px){
-    .top-wrapper {
-        padding-top: 300px;
-    }
-    .title {
-        font-size: 3.5rem;
-    }
-}
 
 /*Main Section*/
 .bean-type {
@@ -124,4 +116,16 @@ footer {
     text-align: center;
     background-color: #ead9d5;
     color: #7c6c68;
+}
+
+/*Responsive CSS*/
+
+/*Responsive Top Section*/
+@media (max-width: 991px){
+    .top-wrapper {
+        padding-top: 300px;
+    }
+    .title {
+        font-size: 3.5rem;
+    }
 }
